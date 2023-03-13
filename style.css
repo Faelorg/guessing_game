@@ -83,15 +83,24 @@ footer {
 .card {
 	height: 50px;
 	width: 200px;
-	background-color: #b1a6b1a7;
-	border-radius: 10px;
+	background-color: #bbb9b9a7;
 	display: grid;
 	justify-content: center;
 	align-content: center;
+	border-radius: 10px;
 }
 
 .card:hover {
 	background-color: lightblue;
 	transform: scale(1.05);
 	transition: 0.2s;
+}
+
+.card div {
+	width: 200px;
+	height: 50px;
+	border-radius: 10px;
+	display: grid;
+	justify-content: center;
+	align-items: center;
 }
