@@ -1,8 +1,8 @@
 * {
-	font-size: 18px;
+  font-size: 18px;
 
-	font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande',
-		'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande',
+    'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 h1,
@@ -11,96 +11,97 @@ h3,
 h4,
 h5,
 h6 {
-	font-weight: 100;
-	font-style: normal;
-	font-size: 18px;
+  font-weight: 100;
+  font-style: normal;
+  font-size: 18px;
 }
 
 h1 {
-	font-size: 32px;
+  font-size: 32px;
 }
 
 header {
-	height: 75px;
-	display: grid;
-	justify-content: center;
-	align-content: center;
-	background-color: orange;
-	color: white;
-	margin-bottom: 10px;
+  height: 75px;
+  display: grid;
+  justify-content: center;
+  align-content: center;
+  background-color: orange;
+  color: white;
+  margin-bottom: 10px;
 }
 
 footer {
-	margin-top: 10px;
-	height: 75px;
-	background-color: orange;
+  margin-top: 10px;
+  height: 75px;
+  background-color: orange;
 }
 
 #btnStart {
-	height: 50px;
-	width: 100%;
-	display: grid;
-	justify-content: center;
-	align-content: center;
+  height: 50px;
+  width: 100%;
+  display: grid;
+  justify-content: center;
+  align-content: center;
 
-	background-color: rgb(218, 162, 22);
-	outline: none;
-	border: none;
-	border-radius: 15px;
-	color: white;
+  background-color: rgb(218, 162, 22);
+  outline: none;
+  border: none;
+  border-radius: 15px;
+  color: white;
 }
 
 #btnStart:hover {
-	background-color: rgb(245, 180, 16);
-	transform: scale(1.1);
-	transition: 0.4s all linear;
+  background-color: rgb(245, 180, 16);
+  transform: scale(1.1);
+  transition: 0.4s all linear;
 }
 
 .setting__game {
-	max-width: 75vw;
-	margin: 0 auto;
-	display: grid;
-	justify-content: center;
-	align-content: center;
-	grid-template-columns: repeat(2, max-content);
-	gap: 10px;
+  max-width: 75vw;
+  margin: 0 auto;
+  display: grid;
+  justify-content: center;
+  align-content: center;
+  grid-template-columns: repeat(2, max-content);
+  gap: 10px;
 }
 
 .start__game {
-	display: grid;
-	justify-content: center;
-	justify-items: center;
+  display: grid;
+  justify-content: center;
+  justify-items: center;
 }
 
 .game__area {
-	display: grid;
-	grid-template-columns: repeat(5, max-content);
-	max-width: 90vw;
-	margin: 0 auto;
-	justify-content: center;
-	gap: 5px;
+  display: grid;
+  grid-template-columns: repeat(5, max-content);
+  max-width: 90vw;
+  margin: 0 auto;
+  justify-content: center;
+  gap: 5px;
 }
 .card {
-	height: 50px;
-	width: 200px;
-	background-color: #bbb9b9a7;
-	display: grid;
-	justify-content: center;
-	align-content: center;
-	border-radius: 10px;
+  height: 50px;
+  width: 200px;
+  background-color: #bbb9b9a7;
+  display: grid;
+  justify-content: center;
+  align-content: center;
+  border-radius: 10px;
 }
 
 .card:hover {
-	background-color: lightblue;
-	transform: scale(1.05);
-	transition: 0.2s;
+  background-color: lightblue;
+  transform: scale(1.05);
+  transition: 0.2s;
 }
 
 .card div {
-	width: 200px;
-	height: 50px;
-	border-radius: 10px;
-	display: grid;
-	justify-content: center;
-	align-items: center;
+  width: 200px;
+  height: 50px;
+  border-radius: 10px;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  user-select: none;
 }
